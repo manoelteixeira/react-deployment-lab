@@ -5,7 +5,6 @@ import Footer from "./Components/Footer/Footer";
 import Article from "./Components/article/Article";
 import "./App.scss";
 import articleData from "./data";
-console.log(articleData);
 
 function App() {
   return (
