@@ -1,0 +1,29 @@
+/*
+  Google Fonts
+  https://fonts.google.com/specimen/Righteous
+*/
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+/* General styles */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color: #040f16;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Righteous, serif;
+  letter-spacing: 2px;
+}
