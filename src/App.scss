@@ -7,3 +7,41 @@ main {
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem 3rem;
 }
+
+/* Media queries */
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .splash {
+    display: none;
+  }
+  main {
+    width: 90%;
+  }
+  footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 767px) {
+  .splash {
+    display: none;
+  }
+  header {
+    grid-template-columns: 1fr;
+  }
+  main {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 0;
+    row-gap: 50px;
+  }
+  footer {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+  }
+  footer ul {
+    padding: 25px;
+    list-style: none;
+  }
+  footer h4 {
+    border-bottom: none;
+  }
+}
